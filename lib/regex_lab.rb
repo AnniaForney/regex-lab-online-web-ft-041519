@@ -16,8 +16,8 @@ end
 
 def valid_phone_number?(phone)
   if phone.match(/\W (\d+)/).count 
-  return true 
-else 
+  return true
+else
   return false
   end
 end
